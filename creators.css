@@ -1,0 +1,118 @@
+/* ----------------------------------creators------------------------------ */
+.vEpUv {
+    gap: 1rem;
+}
+/* images-grid-container */
+
+.grid {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: var(--global-margin);
+    margin-bottom: var(--global-margin);
+    position: relative;
+}
+/* spinner-container */
+.spinner-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    z-index: 200;
+}
+.spinner {
+    animation: spin 0.9s linear infinite;
+    -webkit-animation: spin 0.9s linear infinite;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+
+.grid-item {
+    position: relative;
+    width: calc(100% / 3);
+    overflow: hidden;
+}
+.grid-item .DuPTe {
+    align-items: flex-start;
+}
+.grid-item img {
+    width: 100%;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+.grid-item:hover img {
+    transform: scale(1.125) rotate(4deg);
+    -webkit-transform: scale(1.125) rotate(4deg);
+    -moz-transform: scale(1.125) rotate(4deg);
+    -ms-transform: scale(1.125) rotate(4deg);
+    -o-transform: scale(1.125) rotate(4deg);
+}
+/* load more button */
+.KRaVJ {
+    position: relative;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+.TpsXD > span,
+.TpsXD > svg {
+    visibility: hidden;
+    opacity: 0;
+}
+/* spinner */
+.TpsXD::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-top-color: #29abe2;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation: spin 1s ease infinite;
+    -webkit-animation: spin 1s ease infinite;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+@media (max-width: 1240px) {
+    .grid-item {
+        width: calc(100% / 2);
+    }
+}
+
+@media (max-width: 900px) {
+    .grid-item {
+        width: calc(100% / 1);
+    }
+}

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tweet</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="tweet.css" />
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    </head>
+    <body>
+        <div class="WnFtE">
+            <!-- create tweet container -->
+
+            <form action="" class="NNphm grid-item">
+                <textarea
+                    class="rXodf"
+                    name="tweet"
+                    id="tweet"
+                    cols="30"
+                    rows="5"
+                    placeholder="What's happening?"
+                    aria-label="tweet"
+                ></textarea>
+                <!-- button container -->
+
+                <div class="nmcUE">
+                    <!-- button container's left side -->
+
+                    <div class="feaKM">
+                        <button aria-label="files" type="button" class="dsqkua">
+                            <svg
+                                class="GcjSb"
+                                width="18px"
+                                height="18px"
+                                viewBox="0 0 48 48"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <circle
+                                    cx="18"
+                                    cy="17"
+                                    r="4"
+                                    fill="#3069fe"
+                                    stroke="#3069fe"
+                                    stroke-width="4"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="tRLtc"
+                                />
+                                <path
+                                    d="M15 28V37H33V21L23.4894 31.5L15 28Z"
+                                    fill="#3069fe"
+                                    stroke="#3069fe"
+                                    stroke-width="4"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="tRLtc"
+                                />
+                                <path
+                                    d="M10 44H38C39.1046 44 40 43.1046 40 42V14L30 4H10C8.89543 4 8 4.89543 8 6V42C8 43.1046 8.89543 44 10 44Z"
+                                    stroke="#3069fe"
+                                    stroke-width="4"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="tRLtc"
+                                />
+                                <path
+                                    d="M30 4V14H40"
+                                    stroke="#3069fe"
+                                    stroke-width="4"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="tRLtc"
+                                />
+                            </svg>
+                        </button>
+                        <button aria-label="emoji" type="button" class="dsqkua">
+                            <svg
+                                class="GcjSb"
+                                width="18px"
+                                height="18px"
+                                viewBox="0 0 24 24"
+                                fill="#6c757d"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM9.96665 14.7439C9.827 14.2162 9.28872 13.897 8.75746 14.0299C8.22166 14.1638 7.8959 14.7067 8.02985 15.2425C8.46886 16.9986 10.2833 18 12 18C13.7853 18 15.4524 16.9881 15.9701 15.24C16.1041 14.7042 15.7783 14.1638 15.2425 14.0299C14.7113 13.897 14.173 14.2162 14.0333 14.7439C13.7722 15.6146 12.8398 16 12 16C11.1602 16 10.2278 15.6147 9.96665 14.7439ZM10.5 10C10.5 10.8284 9.82843 11.5 9 11.5C8.17157 11.5 7.5 10.8284 7.5 10C7.5 9.17157 8.17157 8.5 9 8.5C9.82843 8.5 10.5 9.17157 10.5 10ZM15 11.5C15.8284 11.5 16.5 10.8284 16.5 10C16.5 9.17157 15.8284 8.5 15 8.5C14.1716 8.5 13.5 9.17157 13.5 10C13.5 10.8284 14.1716 11.5 15 11.5Z"
+                                    fill="#3069fe"
+                                    class="tRLtc"
+                                />
+                            </svg>
+                        </button>
+                    </div>
+                    <button class="YiQmY">Tweet</button>
+                </div>
+            </form>
+            <!-- Tweet section container -->
+            <div class="MKJAe grid">
+                <!-- Individual tweet container -->
+                <div class="Iedfo grid-item">
+                    <!-- tweet -->
+                    <div class="wcbfi">
+                        <!-- tweet top section -->
+                        <div class="MxHFv">
+                            <!-- tweet creator image placeholder -->
+                            <div class="BdJyF tRLtc"></div>
+                            <!-- tweet creator info container -->
+                            <div class="lFOYs">
+                                <div class="GIcVu">
+                                    <h1 class="XJfJL">Lorem</h1>
+                                    <svg
+                                        class="GcjSb"
+                                        width="18px"
+                                        height="18px"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        id="verified"
+                                    >
+                                        <path
+                                            d="M21.6,9.84A4.57,4.57,0,0,1,21.18,9,4,4,0,0,1,21,8.07a4.21,4.21,0,0,0-.64-2.16,4.25,4.25,0,0,0-1.87-1.28,4.77,4.77,0,0,1-.85-.43A5.11,5.11,0,0,1,17,3.54a4.2,4.2,0,0,0-1.8-1.4A4.22,4.22,0,0,0,13,2.21a4.24,4.24,0,0,1-1.94,0,4.22,4.22,0,0,0-2.24-.07A4.2,4.2,0,0,0,7,3.54a5.11,5.11,0,0,1-.66.66,4.77,4.77,0,0,1-.85.43A4.25,4.25,0,0,0,3.61,5.91,4.21,4.21,0,0,0,3,8.07,4,4,0,0,1,2.82,9a4.57,4.57,0,0,1-.42.82A4.3,4.3,0,0,0,1.63,12a4.3,4.3,0,0,0,.77,2.16,4,4,0,0,1,.42.82,4.11,4.11,0,0,1,.15.95,4.19,4.19,0,0,0,.64,2.16,4.25,4.25,0,0,0,1.87,1.28,4.77,4.77,0,0,1,.85.43,5.11,5.11,0,0,1,.66.66,4.12,4.12,0,0,0,1.8,1.4,3,3,0,0,0,.87.13A6.66,6.66,0,0,0,11,21.81a4,4,0,0,1,1.94,0,4.33,4.33,0,0,0,2.24.06,4.12,4.12,0,0,0,1.8-1.4,5.11,5.11,0,0,1,.66-.66,4.77,4.77,0,0,1,.85-.43,4.25,4.25,0,0,0,1.87-1.28A4.19,4.19,0,0,0,21,15.94a4.11,4.11,0,0,1,.15-.95,4.57,4.57,0,0,1,.42-.82A4.3,4.3,0,0,0,22.37,12,4.3,4.3,0,0,0,21.6,9.84Zm-4.89.87-5,5a1,1,0,0,1-1.42,0l-3-3a1,1,0,1,1,1.42-1.42L11,13.59l4.29-4.3a1,1,0,0,1,1.42,1.42Z"
+                                            fill="#3069fe"
+                                            class="tRLtc"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <span class="bCuDq">@ipsum</span>
+                            </div>
+                        </div>
+                        <!-- tweet middle section -->
+                        <div class="VUsWm">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Necessitatibus officiis ipsam
+                                non omnis suscipit est.
+                                <span class="JeQVD">#TwitterPost</span>
+                            </p>
+                            <span class="YPJuy">21 August 2023</span>
+                        </div>
+                        <!-- tweet bottom section -->
+                        <div class="nrcfc">
+                            <div class="EICub DeYlt">
+                                <svg
+                                    class="HNdzs"
+                                    width="18px"
+                                    height="18px"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M6.84572 18.6204C6.74782 18.0072 6.4668 17.4522 6.05816 17.0088C4.18319 15.5427 3 13.3942 3 11C3 6.58173 7.02944 3 12 3C16.9706 3 21 6.58173 21 11C21 15.4183 16.9706 19 12 19C11.1546 19 10.3365 18.8964 9.56074 18.7027C9.45389 18.676 9.34187 18.72 9.28125 18.8119C9.15858 18.998 9.02331 19.1851 8.87719 19.3674C8.64734 19.6542 8.39065 19.9289 8.11392 20.1685C7.59543 20.6174 7.00662 20.943 6.39232 20.9932C6.37166 20.9949 6.35097 20.9963 6.33025 20.9974C6.28866 20.9995 6.26498 20.9519 6.28953 20.9182C6.30109 20.9024 6.3125 20.8865 6.32376 20.8704C6.67743 20.3664 6.88397 19.7586 6.88397 19.1044C6.88397 19.0915 6.88389 19.0786 6.88373 19.0658C6.88185 18.9146 6.86893 18.7659 6.84572 18.6204ZM4.66223 18.4535C2.45613 16.6579 1 14.0103 1 11C1 5.26221 6.15283 1 12 1C17.8472 1 23 5.26221 23 11C23 16.7378 17.8472 21 12 21C11.3978 21 10.8057 20.9559 10.2276 20.8709C9.93606 21.2084 9.60764 21.5363 9.24519 21.8294C8.55521 22.3873 7.59485 22.9353 6.43241 22.9948L6.43238 22.9948C4.55136 23.0909 3.75168 21.003 4.67402 19.7392C4.81033 19.5524 4.88397 19.3363 4.88397 19.1044C4.88397 18.8684 4.80711 18.6449 4.66223 18.4535Z"
+                                        fill="#0F1729"
+                                        class="tRLtc"
+                                    />
+                                </svg>
+                                <span>12K</span>
+                            </div>
+                            <div class="EICub DeYlt">
+                                <svg
+                                    class="HNdzs"
+                                    fill="#000000"
+                                    width="800px"
+                                    height="800px"
+                                    viewBox="0 0 32 32"
+                                    version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M8.999 3.567c0.98 0 2.753 0.469 5.628 3.301l1.425 1.403 1.404-1.426c1.996-2.028 4.12-3.288 5.543-3.288 1.919 0 3.432 0.656 4.907 2.128 1.39 1.386 2.156 3.23 2.156 5.191 0.001 1.962-0.764 3.807-2.169 5.209-0.114 0.116-6.156 6.634-11.218 12.097-0.238 0.227-0.511 0.26-0.656 0.26-0.143 0-0.412-0.032-0.65-0.253-1.233-1.372-10.174-11.313-11.213-12.351-1.391-1.388-2.157-3.233-2.157-5.194s0.766-3.804 2.158-5.192c1.353-1.352 2.937-1.885 4.842-1.885zM8.999 1.567c-2.392 0-4.5 0.715-6.255 2.469-3.659 3.649-3.659 9.566 0 13.217 1.045 1.045 11.183 12.323 11.183 12.323 0.578 0.578 1.336 0.865 2.093 0.865s1.512-0.287 2.091-0.865c0 0 11.090-11.97 11.208-12.089 3.657-3.652 3.657-9.57 0-13.219-1.816-1.813-3.845-2.712-6.319-2.712-2.364 0-5 1.885-6.969 3.885-2.031-2-4.585-3.874-7.031-3.874v0z"
+                                        class="tRLtc"
+                                    ></path>
+                                </svg>
+                                <span>12K</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- comment -->
+                    <div class="vHmJy">
+                        <!-- Individual comment -->
+                        <div class="avuSu">
+                            <!-- comment creator's image placholder -->
+                            <div class="SSUba tRLtc"></div>
+                            <div class="ePdaN">
+                                <div class="yZaej">
+                                    <span class="IrfVc">deminis12</span>
+                                    <span class="OGmep">5h ago</span>
+                                </div>
+                                <div class="PjdnZ">
+                                    Okay great thats all the infromation I
+                                    needed to know!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Individual tweet container -->
+                <div class="Iedfo grid-item">
+                    <!-- tweet -->
+                    <div class="wcbfi">
+                        <!-- tweet top section -->
+                        <div class="MxHFv">
+                            <!-- tweet creator image placeholder -->
+                            <div class="BdJyF tRLtc"></div>
+                            <!-- tweet creator info container -->
+                            <div class="lFOYs">
+                                <div class="GIcVu">
+                                    <h1 class="XJfJL">Lorem</h1>
+                                    <svg
+                                        class="GcjSb"
+                                        width="18px"
+                                        height="18px"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        id="verified"
+                                    >
+                                        <path
+                                            d="M21.6,9.84A4.57,4.57,0,0,1,21.18,9,4,4,0,0,1,21,8.07a4.21,4.21,0,0,0-.64-2.16,4.25,4.25,0,0,0-1.87-1.28,4.77,4.77,0,0,1-.85-.43A5.11,5.11,0,0,1,17,3.54a4.2,4.2,0,0,0-1.8-1.4A4.22,4.22,0,0,0,13,2.21a4.24,4.24,0,0,1-1.94,0,4.22,4.22,0,0,0-2.24-.07A4.2,4.2,0,0,0,7,3.54a5.11,5.11,0,0,1-.66.66,4.77,4.77,0,0,1-.85.43A4.25,4.25,0,0,0,3.61,5.91,4.21,4.21,0,0,0,3,8.07,4,4,0,0,1,2.82,9a4.57,4.57,0,0,1-.42.82A4.3,4.3,0,0,0,1.63,12a4.3,4.3,0,0,0,.77,2.16,4,4,0,0,1,.42.82,4.11,4.11,0,0,1,.15.95,4.19,4.19,0,0,0,.64,2.16,4.25,4.25,0,0,0,1.87,1.28,4.77,4.77,0,0,1,.85.43,5.11,5.11,0,0,1,.66.66,4.12,4.12,0,0,0,1.8,1.4,3,3,0,0,0,.87.13A6.66,6.66,0,0,0,11,21.81a4,4,0,0,1,1.94,0,4.33,4.33,0,0,0,2.24.06,4.12,4.12,0,0,0,1.8-1.4,5.11,5.11,0,0,1,.66-.66,4.77,4.77,0,0,1,.85-.43,4.25,4.25,0,0,0,1.87-1.28A4.19,4.19,0,0,0,21,15.94a4.11,4.11,0,0,1,.15-.95,4.57,4.57,0,0,1,.42-.82A4.3,4.3,0,0,0,22.37,12,4.3,4.3,0,0,0,21.6,9.84Zm-4.89.87-5,5a1,1,0,0,1-1.42,0l-3-3a1,1,0,1,1,1.42-1.42L11,13.59l4.29-4.3a1,1,0,0,1,1.42,1.42Z"
+                                            fill="#3069fe"
+                                            class="tRLtc"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <span class="bCuDq">@ipsum</span>
+                            </div>
+                        </div>
+                        <!-- tweet middle section -->
+                        <div class="VUsWm">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Necessitatibus officiis ipsam
+                                non omnis suscipit est.
+                                <span class="JeQVD">#TwitterPost</span>
+                            </p>
+                            <span class="YPJuy">21 August 2023</span>
+                        </div>
+                        <!-- tweet bottom section -->
+                        <div class="nrcfc">
+                            <div class="EICub DeYlt">
+                                <svg
+                                    class="HNdzs"
+                                    width="18px"
+                                    height="18px"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M6.84572 18.6204C6.74782 18.0072 6.4668 17.4522 6.05816 17.0088C4.18319 15.5427 3 13.3942 3 11C3 6.58173 7.02944 3 12 3C16.9706 3 21 6.58173 21 11C21 15.4183 16.9706 19 12 19C11.1546 19 10.3365 18.8964 9.56074 18.7027C9.45389 18.676 9.34187 18.72 9.28125 18.8119C9.15858 18.998 9.02331 19.1851 8.87719 19.3674C8.64734 19.6542 8.39065 19.9289 8.11392 20.1685C7.59543 20.6174 7.00662 20.943 6.39232 20.9932C6.37166 20.9949 6.35097 20.9963 6.33025 20.9974C6.28866 20.9995 6.26498 20.9519 6.28953 20.9182C6.30109 20.9024 6.3125 20.8865 6.32376 20.8704C6.67743 20.3664 6.88397 19.7586 6.88397 19.1044C6.88397 19.0915 6.88389 19.0786 6.88373 19.0658C6.88185 18.9146 6.86893 18.7659 6.84572 18.6204ZM4.66223 18.4535C2.45613 16.6579 1 14.0103 1 11C1 5.26221 6.15283 1 12 1C17.8472 1 23 5.26221 23 11C23 16.7378 17.8472 21 12 21C11.3978 21 10.8057 20.9559 10.2276 20.8709C9.93606 21.2084 9.60764 21.5363 9.24519 21.8294C8.55521 22.3873 7.59485 22.9353 6.43241 22.9948L6.43238 22.9948C4.55136 23.0909 3.75168 21.003 4.67402 19.7392C4.81033 19.5524 4.88397 19.3363 4.88397 19.1044C4.88397 18.8684 4.80711 18.6449 4.66223 18.4535Z"
+                                        fill="#0F1729"
+                                        class="tRLtc"
+                                    />
+                                </svg>
+                                <span>12K</span>
+                            </div>
+                            <div class="EICub DeYlt">
+                                <svg
+                                    class="HNdzs"
+                                    fill="#000000"
+                                    width="800px"
+                                    height="800px"
+                                    viewBox="0 0 32 32"
+                                    version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M8.999 3.567c0.98 0 2.753 0.469 5.628 3.301l1.425 1.403 1.404-1.426c1.996-2.028 4.12-3.288 5.543-3.288 1.919 0 3.432 0.656 4.907 2.128 1.39 1.386 2.156 3.23 2.156 5.191 0.001 1.962-0.764 3.807-2.169 5.209-0.114 0.116-6.156 6.634-11.218 12.097-0.238 0.227-0.511 0.26-0.656 0.26-0.143 0-0.412-0.032-0.65-0.253-1.233-1.372-10.174-11.313-11.213-12.351-1.391-1.388-2.157-3.233-2.157-5.194s0.766-3.804 2.158-5.192c1.353-1.352 2.937-1.885 4.842-1.885zM8.999 1.567c-2.392 0-4.5 0.715-6.255 2.469-3.659 3.649-3.659 9.566 0 13.217 1.045 1.045 11.183 12.323 11.183 12.323 0.578 0.578 1.336 0.865 2.093 0.865s1.512-0.287 2.091-0.865c0 0 11.090-11.97 11.208-12.089 3.657-3.652 3.657-9.57 0-13.219-1.816-1.813-3.845-2.712-6.319-2.712-2.364 0-5 1.885-6.969 3.885-2.031-2-4.585-3.874-7.031-3.874v0z"
+                                        class="tRLtc"
+                                    ></path>
+                                </svg>
+                                <span>12K</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- comment -->
+                    <div class="vHmJy">
+                        <!-- Individual comment -->
+                        <div class="avuSu">
+                            <!-- comment creator's image placholder -->
+                            <div class="SSUba tRLtc"></div>
+                            <div class="ePdaN">
+                                <div class="yZaej">
+                                    <span class="IrfVc">deminis12</span>
+                                    <span class="OGmep">5h ago</span>
+                                </div>
+                                <div class="PjdnZ">
+                                    Okay great thats all the infromation I
+                                    needed to know!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- comment -->
+                    <div class="vHmJy">
+                        <!-- Individual comment -->
+                        <div class="avuSu">
+                            <!-- comment creator's image placholder -->
+                            <div class="SSUba tRLtc"></div>
+                            <div class="ePdaN">
+                                <div class="yZaej">
+                                    <span class="IrfVc">deminis12</span>
+                                    <span class="OGmep">5h ago</span>
+                                </div>
+                                <div class="PjdnZ">
+                                    Okay great thats all the infromation I
+                                    needed to know!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Individual tweet container -->
+                <div class="Iedfo grid-item">
+                    <!-- tweet -->
+                    <div class="wcbfi">
+                        <!-- tweet top section -->
+                        <div class="MxHFv">
+                            <!-- tweet creator image placeholder -->
+                            <div class="BdJyF tRLtc"></div>
+                            <!-- tweet creator info container -->
+                            <div class="lFOYs">
+                                <div class="GIcVu">
+                                    <h1 class="XJfJL">Lorem</h1>
+                                    <svg
+                                        class="GcjSb"
+                                        width="18px"
+                                        height="18px"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        id="verified"
+                                    >
+                                        <path
+                                            d="M21.6,9.84A4.57,4.57,0,0,1,21.18,9,4,4,0,0,1,21,8.07a4.21,4.21,0,0,0-.64-2.16,4.25,4.25,0,0,0-1.87-1.28,4.77,4.77,0,0,1-.85-.43A5.11,5.11,0,0,1,17,3.54a4.2,4.2,0,0,0-1.8-1.4A4.22,4.22,0,0,0,13,2.21a4.24,4.24,0,0,1-1.94,0,4.22,4.22,0,0,0-2.24-.07A4.2,4.2,0,0,0,7,3.54a5.11,5.11,0,0,1-.66.66,4.77,4.77,0,0,1-.85.43A4.25,4.25,0,0,0,3.61,5.91,4.21,4.21,0,0,0,3,8.07,4,4,0,0,1,2.82,9a4.57,4.57,0,0,1-.42.82A4.3,4.3,0,0,0,1.63,12a4.3,4.3,0,0,0,.77,2.16,4,4,0,0,1,.42.82,4.11,4.11,0,0,1,.15.95,4.19,4.19,0,0,0,.64,2.16,4.25,4.25,0,0,0,1.87,1.28,4.77,4.77,0,0,1,.85.43,5.11,5.11,0,0,1,.66.66,4.12,4.12,0,0,0,1.8,1.4,3,3,0,0,0,.87.13A6.66,6.66,0,0,0,11,21.81a4,4,0,0,1,1.94,0,4.33,4.33,0,0,0,2.24.06,4.12,4.12,0,0,0,1.8-1.4,5.11,5.11,0,0,1,.66-.66,4.77,4.77,0,0,1,.85-.43,4.25,4.25,0,0,0,1.87-1.28A4.19,4.19,0,0,0,21,15.94a4.11,4.11,0,0,1,.15-.95,4.57,4.57,0,0,1,.42-.82A4.3,4.3,0,0,0,22.37,12,4.3,4.3,0,0,0,21.6,9.84Zm-4.89.87-5,5a1,1,0,0,1-1.42,0l-3-3a1,1,0,1,1,1.42-1.42L11,13.59l4.29-4.3a1,1,0,0,1,1.42,1.42Z"
+                                            fill="#3069fe"
+                                            class="tRLtc"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <span class="bCuDq">@ipsum</span>
+                            </div>
+                        </div>
+                        <!-- tweet middle section -->
+                        <div class="VUsWm">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Necessitatibus officiis ipsam
+                                non omnis suscipit est.
+                                <span class="JeQVD">#TwitterPost</span>
+                            </p>
+                            <span class="YPJuy">21 August 2023</span>
+                        </div>
+                        <!-- tweet bottom section -->
+                        <div class="nrcfc">
+                            <div class="EICub DeYlt">
+                                <svg
+                                    class="HNdzs"
+                                    width="18px"
+                                    height="18px"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M6.84572 18.6204C6.74782 18.0072 6.4668 17.4522 6.05816 17.0088C4.18319 15.5427 3 13.3942 3 11C3 6.58173 7.02944 3 12 3C16.9706 3 21 6.58173 21 11C21 15.4183 16.9706 19 12 19C11.1546 19 10.3365 18.8964 9.56074 18.7027C9.45389 18.676 9.34187 18.72 9.28125 18.8119C9.15858 18.998 9.02331 19.1851 8.87719 19.3674C8.64734 19.6542 8.39065 19.9289 8.11392 20.1685C7.59543 20.6174 7.00662 20.943 6.39232 20.9932C6.37166 20.9949 6.35097 20.9963 6.33025 20.9974C6.28866 20.9995 6.26498 20.9519 6.28953 20.9182C6.30109 20.9024 6.3125 20.8865 6.32376 20.8704C6.67743 20.3664 6.88397 19.7586 6.88397 19.1044C6.88397 19.0915 6.88389 19.0786 6.88373 19.0658C6.88185 18.9146 6.86893 18.7659 6.84572 18.6204ZM4.66223 18.4535C2.45613 16.6579 1 14.0103 1 11C1 5.26221 6.15283 1 12 1C17.8472 1 23 5.26221 23 11C23 16.7378 17.8472 21 12 21C11.3978 21 10.8057 20.9559 10.2276 20.8709C9.93606 21.2084 9.60764 21.5363 9.24519 21.8294C8.55521 22.3873 7.59485 22.9353 6.43241 22.9948L6.43238 22.9948C4.55136 23.0909 3.75168 21.003 4.67402 19.7392C4.81033 19.5524 4.88397 19.3363 4.88397 19.1044C4.88397 18.8684 4.80711 18.6449 4.66223 18.4535Z"
+                                        fill="#0F1729"
+                                        class="tRLtc"
+                                    />
+                                </svg>
+                                <span>12K</span>
+                            </div>
+                            <div class="EICub DeYlt">
+                                <svg
+                                    class="HNdzs"
+                                    fill="#000000"
+                                    width="800px"
+                                    height="800px"
+                                    viewBox="0 0 32 32"
+                                    version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M8.999 3.567c0.98 0 2.753 0.469 5.628 3.301l1.425 1.403 1.404-1.426c1.996-2.028 4.12-3.288 5.543-3.288 1.919 0 3.432 0.656 4.907 2.128 1.39 1.386 2.156 3.23 2.156 5.191 0.001 1.962-0.764 3.807-2.169 5.209-0.114 0.116-6.156 6.634-11.218 12.097-0.238 0.227-0.511 0.26-0.656 0.26-0.143 0-0.412-0.032-0.65-0.253-1.233-1.372-10.174-11.313-11.213-12.351-1.391-1.388-2.157-3.233-2.157-5.194s0.766-3.804 2.158-5.192c1.353-1.352 2.937-1.885 4.842-1.885zM8.999 1.567c-2.392 0-4.5 0.715-6.255 2.469-3.659 3.649-3.659 9.566 0 13.217 1.045 1.045 11.183 12.323 11.183 12.323 0.578 0.578 1.336 0.865 2.093 0.865s1.512-0.287 2.091-0.865c0 0 11.090-11.97 11.208-12.089 3.657-3.652 3.657-9.57 0-13.219-1.816-1.813-3.845-2.712-6.319-2.712-2.364 0-5 1.885-6.969 3.885-2.031-2-4.585-3.874-7.031-3.874v0z"
+                                        class="tRLtc"
+                                    ></path>
+                                </svg>
+                                <span>12K</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- comment -->
+                    <div class="vHmJy">
+                        <!-- Individual comment -->
+                        <div class="avuSu">
+                            <!-- comment creator's image placholder -->
+                            <div class="SSUba tRLtc"></div>
+                            <div class="ePdaN">
+                                <div class="yZaej">
+                                    <span class="IrfVc">deminis12</span>
+                                    <span class="OGmep">5h ago</span>
+                                </div>
+                                <div class="PjdnZ">
+                                    Okay great thats all the infromation I
+                                    needed to know!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- comment -->
+                    <div class="vHmJy">
+                        <!-- Individual comment -->
+                        <div class="avuSu">
+                            <!-- comment creator's image placholder -->
+                            <div class="SSUba tRLtc"></div>
+                            <div class="ePdaN">
+                                <div class="yZaej">
+                                    <span class="IrfVc">deminis12</span>
+                                    <span class="OGmep">5h ago</span>
+                                </div>
+                                <div class="PjdnZ">
+                                    Okay great thats all the infromation I
+                                    needed to know!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- comment -->
+                    <div class="vHmJy">
+                        <!-- Individual comment -->
+                        <div class="avuSu">
+                            <!-- comment creator's image placholder -->
+                            <div class="SSUba tRLtc"></div>
+                            <div class="ePdaN">
+                                <div class="yZaej">
+                                    <span class="IrfVc">deminis12</span>
+                                    <span class="OGmep">5h ago</span>
+                                </div>
+                                <div class="PjdnZ">
+                                    Okay great thats all the infromation I
+                                    needed to know!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var grid = document.querySelector(".grid");
+            var masonry = new Masonry(grid, {
+                itemSelector: ".grid-item",
+                columnWidth: 0,
+                // gutter: 10 // Set your desired gutter size
+            });
+        </script>
+    </body>
+</html>
